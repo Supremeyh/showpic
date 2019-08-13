@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img src="./assets/logo.png"> -->
+    <div>
+      <h2> 图片展示排序 </h2>
+    </div>
+    <PicBox />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PicBox from './components/PicBox.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    PicBox
   }
 }
 </script>
